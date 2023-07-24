@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Repository for my portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonIturbe/portfolio.git"
+  },
+  "author": "Jon Iturbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonIturbe/portfolio/issues"
+  },
+  "homepage": "https://github.com/JonIturbe/portfolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
