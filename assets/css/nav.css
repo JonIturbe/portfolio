@@ -1,5 +1,5 @@
 #navbar {
-    box-shadow: 0px 0px 10px 1px var(--gray3);
+    box-shadow: 0px 0px 7px 1px var(--gray3);
 }
 
 #navbar div {
@@ -42,12 +42,12 @@
 }
 
 #navbar ul {
-    background: linear-gradient(var(--primary), var(--primary-dark));
+    background: linear-gradient(var(--primary-light), var(--primary));
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0;
     margin: 0;
     max-height: 0;
-    transition: max-height .3 ease;
+    transition: max-height .3s ease;
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -67,7 +67,7 @@
     padding: 10px 15px;
     text-decoration: none;
     color: var(--white);
-    transition: color .3 ease, background-color .3 ease;
+    transition: color .2s ease, background-color .2s ease;
 }
 
 #navbar ul a:hover,

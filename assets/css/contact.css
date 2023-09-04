@@ -18,7 +18,7 @@ textarea:focus {
     background-color: rgba(0,0,0,0.1);
     box-shadow: none;
     cursor: pointer;
-    margin: 1rem o 2rem;
+    margin: 1rem 0 2rem;
 }
 
 textarea {
@@ -28,6 +28,8 @@ textarea {
 form button {
     background-color: var(--secondary);
     color: var(--white);
+    width: 10%;
+    height: 5%;
     margin: 3rem;
     border: none;
     padding: 1rem;
@@ -38,13 +40,15 @@ form button {
 
 form button:hover {
     background-color: var(--secondary-dark);
+    
 }
 
 #social-media img {
+    width: 3%;
     border-radius: 10rem;
-    background-color: var(--white);
+    background-color: var(--black);
     transition: all ease .3s;
-    margin: 1rem;
+    margin: 1rem;   
 }
 
 #social-media a {

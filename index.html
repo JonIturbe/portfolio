@@ -4,33 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <title>Jon Iturbe Arsuaga | Portfolio</title>
-    <!-- <link rel="stylesheet" href="css/style.css"/> -->
-    <!-- <script src="js/script.js"></script> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Pagina de ejemplo para aprendizaje de programacion"/>
     <meta name="theme-color" content="#000000"/>
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    
     <link rel="manifest" href="/manifest.json"/>
     <link rel="icon" href="./assets/img/logos/small.png"/>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="./node_modules/eins-modal/dist/css/eins-modal.min.css"> -->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/utils.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/sections.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/header.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/portfolio.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/skillset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/experience.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/contact.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
 
@@ -42,7 +30,7 @@
         <hr />
         <h2>Full Stack Developer</h2>
         <video autoplay loop muted>
-            <source src="./assets/video/hero.mp4" />
+            <source src="./assets/video/hero_light.mp4" />
         </video>
     </header>
 
@@ -55,38 +43,37 @@
             <button id="hamburger" >☰</button>
         </div>
         <ul>
-            <li><a href="#porftolio">Portfolio</a></li>
+            <li><a href="#experience">Experience</a></li>            
             <li><a href="#skillset">Skillset</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <main>
-
-        <section id="portfolio">
-            <h3>Portfolio</h3>
+        <section id="experience">
+            <h3>Experience</h3>
             <hr />
             <div>
-                <button>
-                    <img src="./assets/img/portfolio/1.png" alt="" />
-                    <h4>Etorki Games</h4>
-                </button>
-                <button>
-                    <img src="./assets/img/portfolio/2.png" alt="" />
+                <a data-modal-id="myModal">
+                    <img src="./assets/img/keifi-logo-short.png" alt="Keifi Soluciones Tecnologicas S.L." />
+                    <h4>Keifi Tech.</h4>
+                </a>
+                <a data-modal-id="myModal">
+                    <img src="./assets/img/wejyc-logo.svg" alt="WEJYC TECH S.L" />
                     <h4>Wejyc</h4>
-                </button>
-                <button>
-                    <img src="./assets/img/portfolio/3.png" alt="" />
+                </a>                
+                <a data-modal-id="myModal">
+                    <img src="./assets/img/enalto-logo.svg" alt="Entalto Games S.L." />
                     <h4>Enalto Studios</h4>
-                </button>
-                <button>
-                    <img src="./assets/img/portfolio/3.png" alt="" />
-                    <h4>Keifi</h4>
-                </button>
+                </a>
+                <a data-modal-id="myModal">
+                    <img src="./assets/img/keplerians-logo.png" alt="Keplerians S.L." />
+                    <h4>Keplerians</h4>
+                </a>
             </div>
         </section>
-
+        
         <section id="skillset" class="even">
             <h3>Skillset</h3>
             <hr />
@@ -126,33 +113,33 @@
             </div>
         </section>
 
-        <section id="experience">
-            <h3>Experience</h3>
+        <section id="portfolio">
+            <h3>Portfolio</h3>
             <hr />
             <div>
-                <a data-modal-id="myModal">
-                    <img src="./assets/img/portfolio/1.png" alt="Etorki Games" />
-                    <h4>Etorki Games</h4>
-                </a>
-                <a data-modal-id="myModal">
-                    <img src="./assets/img/portfolio/2.png" alt="Wejyc" />
-                    <h4>Wejyc</h4>
-                </a>
-                <a data-modal-id="myModal">
-                    <img src="./assets/img/portfolio/3.png" alt="Enalto Studios" />
-                    <h4>Enalto Studios</h4>
-                </a>
-                <a data-modal-id="myModal">
-                    <img src="./assets/img/portfolio/3.png" alt="Keifi" />
+                <button>
+                    <img src="./assets/img/keifi-logo-short.png" alt="Keifi Soluciones Tecnologicas S.L." />
                     <h4>Keifi</h4>
-                </a>
+                </button>
+                <button>
+                    <img src="./assets/img/wejyc-logo.svg" alt="WEJYC TECH S.L" />
+                    <h4>Wejyc</h4>
+                </button>
+                <button>
+                    <img src="./assets/img/enalto-logo.svg" alt="Entalto Games S.L." />
+                    <h4>Enalto Studios</h4>
+                </button>                
+                <button>
+                    <img src="./assets/img/keplerians-logo.png" alt="Keplerians S.L." />
+                    <h4>Keplerians</h4>
+                </button>
             </div>
         </section>
 
         <section id="contact" class="even">
             <h3>Contact</h3>
             <hr />
-            <form action="https://formspree.io/f/{form_id}" method="post">
+            <form action="https://formspree.io/f/xzblgvaz" method="post">
                 <label>
                     Your Email: 
                     <input type="email" name="replyto" />
@@ -170,7 +157,7 @@
                 <a href="">
                     <img id="github" src="./assets/img/social/github.png" alt="github image" />
                 </a>
-                <a href="https://www.youtube.com/@transball69">
+                <a href="https://www.youtube.com/@joniturbearsuaga">
                     <img id="youtube" src="./assets/img/social/youtube.png" alt="youtube image" />
                 </a>
             </nav>
@@ -191,11 +178,8 @@
           <button class="eins-modal-close-button">OK</button>
         </div>
     </div>
-
     <!-- <script src="./assets/js/main.js"></script>
     <script src="./assets/js/fixed.js"></script> -->
-    <!-- <script src="./node_modules/eins-modal/dist/js/eins-modal.min.js"></script> -->
-
 </body>
 
 </html>
