@@ -28,7 +28,7 @@ textarea {
 form button {
     background-color: var(--secondary);
     color: var(--white);
-    width: 10%;
+    min-width: 10%;
     height: 5%;
     margin: 3rem;
     border: none;
@@ -44,11 +44,11 @@ form button:hover {
 }
 
 #social-media img {
-    width: 3%;
+    min-width: 3%;
     border-radius: 10rem;
     background-color: var(--black);
     transition: all ease .3s;
-    margin: 1rem;   
+    margin: 1rem;
 }
 
 #social-media a {

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Pagina de ejemplo para aprendizaje de programacion"/>
     <meta name="theme-color" content="#000000"/>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     
     <link rel="manifest" href="/manifest.json"/>
     <link rel="icon" href="./assets/img/logos/small.png"/>
@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
+    <link rel="stylesheet" href="assets/css/index.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
@@ -55,11 +55,11 @@
             <h3>Experience</h3>
             <hr />
             <div>
-                <a data-modal-id="myModal">
+                <a data-modal-id="myModalKeifi">
                     <img src="./assets/img/keifi-logo-short.png" alt="Keifi Soluciones Tecnologicas S.L." />
                     <h4>Keifi Tech.</h4>
                 </a>
-                <a data-modal-id="myModal">
+                <a data-modal-id="myModalWejyc">
                     <img src="./assets/img/wejyc-logo.svg" alt="WEJYC TECH S.L" />
                     <h4>Wejyc</h4>
                 </a>                
@@ -83,33 +83,33 @@
                     <span class="tooltip">HTML</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/css.svg" alt="css image" />
+                    <img src="./assets/img/skillset/css.png" alt="css image" />
                     <span class="tooltip">CSS</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/js.svg" alt="javascript image" />
+                    <img src="./assets/img/skillset/js-logo.png" alt="javascript image" />
                     <span class="tooltip">JavaScript</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/git.svg" alt="git image" />
+                    <img src="./assets/img/skillset/git-logo.png" alt="git image" />
                     <span class="tooltip">GIT</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/npm.svg" alt="npm image" />
-                    <span class="tooltip">NPM</span>
+                    <img src="./assets/img/skillset/react-logo.png" alt="react image" />
+                    <span class="tooltip">React</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/bash.svg" alt="bash image" />
-                    <span class="tooltip">BASH</span>
+                    <img src="./assets/img/skillset/postman-logo.png" alt="postman image" />
+                    <span class="tooltip">Postman</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/node.svg" alt="node image" />
-                    <span class="tooltip">NODE</span>
+                    <img src="./assets/img/skillset/java-logo.png" alt="java image" />
+                    <span class="tooltip">Java</span>
                 </div>
                 <div>
-                    <img src="./assets/img/skillset/react.svg" alt="react image" />
-                    <span class="tooltip">REACT</span>
-                </div>
+                    <img src="./assets/img/skillset/spring-logo.png" alt="spring image" />
+                    <span class="tooltip">Spring</span>
+                </div>                
             </div>
         </section>
 
@@ -169,17 +169,81 @@
         <small>Developed and designed by Jon Iturbe Arsuaga. &copy;2023. All rights reserved. </small>
     </footer>
 
-    <div id="myModal" class="eins-modal">
+    <div id="myModalKeifi" class="eins-modal eins-modal-default" data-options="openTransition: slideDownIn; openDuration: 300; closeTransition: slideDownOut; closeDuration: 300;">
         <div class="eins-modal-content">
-          <div class="eins-modal-close"></div>
-      
-          Mi primer modal
+          <div>
+            <div class="modal-header">
+                <img src="./assets/img/keifi-logo-short.png" alt="Keifi Soluciones Tecnologicas S.L." />
+                <h4>Keifi Soluciones Tecnologicas S.L.</h4>
+            </div>            
+            <div  class="inner-modal">
+                <p><b>Periodo: </b>Desde Octubre de 2022 hasta actualmente.</p>
+                <p><b>Empresa: </b>Tecnología al servicio del sector financiero, con más de 20 años de experiencia, más de 20 clientes nacionales e internacionales, y con el mejor equipo.</p>
+                <p><b>Experiencia: </b>En ese tiempo desarrollé una variedad de servicios con el fin d egestionar información y automatizar procesos del banco 
+                    Santander. Para ello utilicé Java y Spring además de multitud de librerías a necesidad de los requerimientos del 
+                    cliente.
+                </p>                    
+            </div>
+            <hr />
+            <div class="modal-tech">
+                <div>
+                    <div>
+                        <img src="./assets/img/skillset/postman-logo.png" alt="postman image" />
+                        <span class="tooltip">Postman</span>
+                    </div>
+                    <div>
+                        <img src="./assets/img/skillset/java-logo.png" alt="java image" />
+                        <span class="tooltip">Java</span>
+                    </div>
+                    <div>
+                        <img src="./assets/img/skillset/spring-logo.png" alt="spring image" />
+                        <span class="tooltip">Spring</span>
+                    </div>
+                </div>
+            </div>  
+          </div>
+            <div class="modal-footer">
+                <button class="eins-modal-close-button">Volver</button>
+            </div>
           
-          <button class="eins-modal-close-button">OK</button>
         </div>
     </div>
-    <!-- <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/fixed.js"></script> -->
+
+    <div id="myModalWejyc" class="eins-modal eins-modal-default" data-options="openTransition: slideDownIn; openDuration: 300; closeTransition: slideDownOut; closeDuration: 300;">
+        <div class="eins-modal-content">
+          <div>
+            <div class="modal-header">
+                <img src="./assets/img/wejyc-logo.svg" alt="WEJYC TECH S.L" />
+                <h4>Wejyc Tech S.L</h4>
+            </div>            
+            <div  class="inner-modal">
+                <p><b>Periodo: </b>Desde Febrero de 2022 hasta Junio de 2022.</p>
+                <p><b>Empresa: </b>We create customized technological solutions, which allows us to offer a unique digital experience.
+                    We are committed to help our partners grow technologically while making a positive impact on the digital ecosystem.</p>
+                <p><b>Experiencia: </b>Creé un servicio con el que recorrer multitud de webs sobre moda para recopilar y guardar en base de datos 
+                    información relevante para el cliente. Lo llevé a cabo con selenium para el scrapping y python para la lógica y 
+                    gestión de los datos.
+                </p>                    
+            </div>
+            <hr />
+            <div class="modal-tech">
+                <div>
+                    
+                </div>
+            </div>  
+          </div>
+            <div class="modal-footer">
+                <button class="eins-modal-close-button">Volver</button>
+            </div>
+          
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/fixed.js"></script>
+    <script type="module">
+        import einsModal from 'https://cdn.skypack.dev/eins-modal';
+      </script>
 </body>
 
 </html>
